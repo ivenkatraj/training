@@ -1,0 +1,144 @@
+1. Write a JS code to print numbers from 1 to 10
+
+function print(){
+  for(let i=1;i<=10;i++){
+    console.log(i);
+  }
+}
+print();
+
+2. 2. Write a JS code to print a 2D array
+		arr = [[1, 2],[3, 4],[5, 6]];
+		Output: 1,2,3,4,5,6
+
+function arr(a){
+  let temp='';
+  for(let i=0;i<a.length;i++){
+    for(let j=0;j<a[i].length;j++){
+      temp+=a[i][j];
+    }
+  }
+    return temp;
+}
+let ans=arr([[1, 2],[3, 4],[5, 6]]);
+console.log(ans)
+
+3. Write a JS code to print Even numbers in given array
+
+function evenArray(arr){
+    let temp='';
+  for(let i=0;i<arr.length;i++){
+    if(arr[i]%2==0){
+      temp+=arr[i];
+    }
+    else{
+      continue;
+    }
+  }
+    return temp;
+}
+
+let ans=evenArray([1,4,2,5,8]);
+console.log(ans);
+
+
+
+4. Write a JS code to find the power of a number using for loop
+function square(num){
+  let temp='';
+  for(let i=0;i<=10;i++){
+    temp+=num**i+',';
+  }
+  return temp;
+}
+
+let ans=square(2);
+console.log(ans);
+
+5. Write a JS code to print a pattern using for loop
+
+function pattern(num){
+  let temp='';
+  for(let i=1;i<=num;i++){
+    for(let j=0;j<i;j++){
+      temp+='*';
+    }
+    console.log(temp);
+    temp='';
+  }
+}
+pattern(5);
+
+6. Write a JS code to find the no of digits in a number
+
+function digits(num){
+  let a=num.toString();
+  console.log(a.length);
+}
+
+digits(7898575678);
+
+7. Write a JS code to calculate the sum of digits in a number
+
+
+let num=12345;
+let a=num.toString();
+let temp=0;
+for(let i=0;i<a.length;i++){
+  temp+=parseInt(a[i]);
+}
+console.log(temp);
+
+
+8. Write a JS code to find the largest number in an array
+
+let arr=[111,2,5,3,7,9,10,9];
+  let temp=arr[0];
+for(let i=0;i<arr.length;i++){
+    if(arr[i]>temp){
+      temp=arr[i];
+  }
+}
+console.log(temp);
+
+9. Write a JS code to find product of two arrays
+		arr1 = [3,45,23,78,34];
+		arr2 = [4,2,34,4,12,1];
+          Output : [12, 90, 782, 312, 408, 1]
+
+
+let arr1 = [3,45,23,78,34,8];
+let arr2 = [4,2,34,4,12,8];
+let temp=[];
+if(arr1.length===arr2.length){
+for(let i=0;i<arr1.length;i++){
+    temp.push(arr1[i]*arr2[i]);
+}
+console.log(temp);
+}
+else{
+  console.log('Array length is not equal');
+}
+
+
+10.Write a JS code to find duplicate values in a given array. new set(...)
+
+  let target=10;
+  let nums=[3,6,9,6,7];
+    for (let i = 0; i < nums.length; i++) {
+      for (let j = i + 1; j < nums.length; j++) {
+        if (nums[i] + nums[j] === target) {
+          console.log([i,j]);
+        }
+      }
+    }
+  console.log(temp);
+
+
+11.Display a Same Text Five Times
+
+let a='Hello World!';
+
+for(let i=0;i<5;i++){
+  console.log(a);
+}

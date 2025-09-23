@@ -1,0 +1,195 @@
+1.Check if a number is odd or even in JavaScript
+
+function checkNum(num){
+  if(num%2===0){
+    console.log(`${num} is even`);
+  }
+  else{
+    console.log(`${num} is odd`);
+  }
+}
+
+checkNum(8);
+checkNum(7);
+
+2.Check if input variable is a number or not
+
+function checkNum(a){
+  if(typeof a==='number'){
+    console.log(`${a} is a number`);
+  }
+  else{
+    console.log(`${a} is not a number`);
+  }
+}
+
+checkNum(8);
+checkNum('6');
+
+3.Find the largest of two number
+
+function findLarges(a,b){
+  if(a>b){
+    console.log(`${a} is larger`);
+  }
+  else if(a<b){
+    console.log(`${b} is larger`);
+  }
+  else{
+    console.log(`Both are equal`);
+  }
+}
+
+findLarges(6,9);
+
+4. Find the largest of three number
+
+function findLarges(a,b,c){
+  if(a>b && a>c){
+    console.log(`${a} is greater`);
+  }
+  else if(b>a && b>c){
+    console.log(`${b} is greater`);
+  }
+  else{
+    console.log(`${c} is larger`);
+  }
+}
+
+findLarges(6,9,10);
+findLarges(8,2,1);
+findLarges(8,11,1);
+
+5. Check if a triangle is equilateral, scalene, or isosceles
+
+6.Find the a number is present in given range
+
+function rangeNum(a){
+  if(a>=99 && a<=200){
+    console.log("Between the range");
+  }
+  else{
+    console.log("Not between the range");
+  }
+}
+
+rangeNum(123);
+rangeNum(1203);
+rangeNum(1);
+
+7. Perform arithmetic operations on two numbers
+
+function mathCalc(a,b,cal){
+if(cal==='add'){
+  console.log(a+b);
+}
+else if(cal==='sub'){
+  console.log(a-b);
+}
+else if(cal==='div'){
+  console.log(a/b);
+}
+else if(cal==='mod'){
+  console.log(a%b);
+}
+else if(cal==='mul'){
+  console.log(a*b);
+}
+else{
+  console.log("Invalid Operation");
+}
+}
+
+mathCalc(2,4,'div');
+
+8. Find check if a year is leap year or not
+
+function leapYear(year){
+  if((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)){
+    console.log('Year is leap year.');
+  }
+  else{
+    console.log('Not a leap year');
+  }
+}
+
+leapYear(2000);
+
+9. Find the grade for input marks
+	Print “S grade” if marks is between 90 and 100.
+	Print “A grade” if marks is between 80 and 90.
+	Print “B grade” if marks is between 70 and 80.
+	Print “C grade” if marks is between 60 and 70.
+	Print “D grade” if marks is between 50 and 60.
+	Print “E grade” if marks is between 40 and 50.
+	Print “Student has failed” if marks is between 0 and 40.
+	Else print “Invalid marks”.
+
+function grade(mark){
+  if(mark>=90 && mark<100){
+    console.log('S grade');
+  }
+  else if(mark>=80 && mark<90){
+    console.log('A grade');
+  }
+  else if(mark>=70 && mark<80){
+    console.log('B grade');
+  }
+  else if(mark>=60 && mark<70){
+    console.log('C grade');
+  }
+  else if(mark>=50 && mark<60){
+    console.log('D grade');
+  }
+  else if(mark>=40 && mark<50){
+    console.log('E grade');
+  }
+  else if(mark>=0 && mark<40){
+    console.log("Student has failed");
+  }
+  else{
+    console.log('Invalid mark');
+  }
+}
+
+grade(8);
+
+10.Find number of days in a given month
+	If month is outside the range of 1 and 12 print “Invalid month”.
+	If month is equal to 2 ie, February print “29 days” if leap year else print “28 days” .
+	Else if month is equal to 4, 6, 9 or 11 print “30 days”.
+	Else print “31 days”.
+
+function month(num,year){
+  if(num<=12){
+    if(num===2){
+      if((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)){
+        console.log(29);
+      }
+      else{
+        console.log(28);
+      }
+    }
+    else if(num===4 || num===6 || num===9 || num===11){
+      console.log(30);
+    }
+    else{
+      console.log(31);
+    }
+    
+  }
+  else{
+    console.log('Invalid Month')
+  }
+}
+
+month(2,100);
+
+
+let month=4
+let ear=2024
+if(month>1 && month<12){
+}else if(month==2){
+ 
+}
+
