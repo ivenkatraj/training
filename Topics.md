@@ -22,6 +22,7 @@
 22. Operators
 23. Different operations such as arithmetic, assignment, comparison, logical, ternary.
 24. Array methods (concat,filter,find,forEach,Includes,indexOf,join,map,push,reverse,slice,sort,splice,toString,trim,shift)
-25. String methods (includes,toString,slice,concat,substring,repeat,toUpperCase,toLowerCase)
-26. In-built methods (new Set, new Date, ParseInt)
-27. Math methods (Math.floor, Math.abs, Math.random())
+25. Shallow Copy of Array Methods
+26. String methods (includes,toString,slice,concat,substring,repeat,toUpperCase,toLowerCase)
+27. In-built methods (new Set, new Date, ParseInt)
+28. Math methods (Math.floor, Math.abs, Math.random())
