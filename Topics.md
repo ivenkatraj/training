@@ -1,28 +1,29 @@
 1. Variables (Re-assigned, re-declared)
 2. Primitive data types \& non primitive data types
-3. Block scopes
-4. Closures
-5. Higher order functions
-6. Functions
-7.    i. Normal function
-8.    ii. Arrow function
-9.    iii. Function expression
-10. Arguments, default parameters
-11. Hoisting
-12.    i. Variable hoisting
-13.    ii. Function hoisting
-14. Looping statements
-15.    i. for
-16.    ii. for in
-17.    iii. for of
-18.    iv. for each
-19. If else
-20. While, do while
-21. Switch
-22. Operators
-23. Different operations such as arithmetic, assignment, comparison, logical, ternary.
-24. Array methods (concat,filter,find,forEach,Includes,indexOf,join,map,push,reverse,slice,sort,splice,toString,trim,shift)
-25. Shallow Copy of Array Methods
-26. String methods (includes,toString,slice,concat,substring,repeat,toUpperCase,toLowerCase)
-27. In-built methods (new Set, new Date, ParseInt)
-28. Math methods (Math.floor, Math.abs, Math.random())
+3. Mutating primitive data types and non primitive data types
+4. Block scopes
+5. Closures
+6. Higher order functions
+7. Functions
+8.    i. Normal function
+9.    ii. Arrow function
+10.    iii. Function expression
+11. Arguments, default parameters
+12. Hoisting
+13.    i. Variable hoisting
+14.    ii. Function hoisting
+15. Looping statements
+16.    i. for
+17.    ii. for in
+18.    iii. for of
+19.    iv. for each
+20. If else
+21. While, do while
+22. Switch
+23. Operators
+24. Different operations such as arithmetic, assignment, comparison, logical, ternary.
+25. Array methods (concat,filter,find,forEach,Includes,indexOf,join,map,push,reverse,slice,sort,splice,toString,trim,shift)
+26. Shallow Copy of Array Methods
+27. String methods (includes,toString,slice,concat,substring,repeat,toUpperCase,toLowerCase)
+28. In-built methods (new Set, new Date, ParseInt)
+29. Math methods (Math.floor, Math.abs, Math.random, Math.ceil, Math.round)
