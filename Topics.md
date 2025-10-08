@@ -26,4 +26,4 @@
 26. Shallow Copy of Array Methods
 27. String methods (includes,toString,slice,concat,substring,repeat,toUpperCase,toLowerCase)
 28. In-built methods (new Set, new Date, ParseInt)
-29. Math methods (Math.floor, Math.abs, Math.random, Math.ceil, Math.round)
+29. Math methods (Math.floor, Math.abs, Math.random, Math.ceil, Math.round, Math.sign)
